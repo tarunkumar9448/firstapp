@@ -21,16 +21,13 @@ function Home() {
 
 
     return ( 
-        <div className="min-h-screen">
-            
+        <div className="min-h-screen bg-gray-100">            
             <div className="bg-blue-600 text-white py-20 text-center">
                 <h1 className="text-5xl font-bold">Wellcome To My site</h1>
-            </div>
-            
-            <div className="bg-gray-100 py-5">
+            </div>            
+            <div className="py-5">
                 <h2 className="text-4xl font-bold text-center mt-10">Users List</h2>
                 <div className="max-w-6xl mx-auto py-16 px-6 grid md:grid-cols-3 gap-8" >
-
                 {users.slice(0, 10).map((user, index) => ( 
                   <div key={user.id} className="bg-white shadow-lg rounded-xl p-6 d-flex">
                     <h3 className="text-xl font-bold mb-3">

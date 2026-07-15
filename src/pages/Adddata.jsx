@@ -1,8 +1,5 @@
 import { useState } from "react";
 
-
-
-
 function AddData() {
   const [user, setUser] = useState({
       name: "",
@@ -68,7 +65,6 @@ function AddData() {
       }
   };
 
-
   const handleSubmit = async (e) => {
       e.preventDefault();
       
@@ -110,7 +106,6 @@ function AddData() {
       return data[data.length - 1].id + 1;
   };
     
-    
   const validate = () => {
   let newErrors = {};
 
@@ -134,16 +129,14 @@ function AddData() {
 
   return isValid;
 };
+    
   return (
+    <div className="min-h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold mb-6 text-center bg-blue-600 text-white py-20 text-center">
+        Add User
+      </h1>
   <div className="max-w-5xl mx-auto py-12 px-6">
-    <h1 className="text-4xl font-bold text-center mb-8">
-      Add User
-    </h1>
-
-    <form
-      onSubmit={handleSubmit}
-      className="bg-white shadow-lg rounded-xl p-8 space-y-6"
-    >
+      <form onSubmit={handleSubmit} className="bg-white shadow-lg rounded-xl p-8 space-y-6">
       {/* Profile Image */}
       {/*<div>
         Profile Image  <label className="block mb-2 font-semibold">
@@ -167,156 +160,41 @@ function AddData() {
       </div>*/}
 
       {/* Basic Details */}
+      <h2 className="text-xl font-semibold border-b pb-2">Basic Details</h2>
       <div className="grid md:grid-cols-3 gap-4">
-
-        <input
-          type="text"
-          name="name"
-          placeholder="Full Name *"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="text"
-          name="username"
-          placeholder="Username *"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="email"
-          name="email"
-          placeholder="Email *"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
+        <input type="text" name="name" placeholder="Full Name *" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="username" placeholder="Username *" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="email" name="email" placeholder="Email *" onChange={handleChange} className="border p-3 rounded-lg"/>
       </div>
 
       {/* Address */}
-      <h2 className="text-xl font-semibold border-b pb-2">
-        Address
-      </h2>
-
+      <h2 className="text-xl font-semibold border-b pb-2">Address</h2>
       <div className="grid md:grid-cols-3 gap-4">
-
-        <input
-          type="text"
-          name="address.street"
-          placeholder="Street *"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="text"
-          name="address.suite"
-          placeholder="Suite"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="text"
-          name="address.city"
-          placeholder="City *"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="text"
-          name="address.zipcode"
-          placeholder="Zip Code *"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="text"
-          name="address.geo.lat"
-          placeholder="Latitude"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="text"
-          name="address.geo.lng"
-          placeholder="Longitude"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
+        <input type="text" name="address.street" placeholder="Street *" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="address.suite" placeholder="Suite" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="address.city" placeholder="City *" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="address.zipcode" placeholder="Zip Code *" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="address.geo.lat" placeholder="Latitude" onChange={handleChange} className="border p-3 rounded-lg"        />
+        <input type="text" name="address.geo.lng" placeholder="Longitude" onChange={handleChange} className="border p-3 rounded-lg"        />
       </div>
 
       {/* Contact */}
-      <h2 className="text-xl font-semibold border-b pb-2">
-        Contact
-      </h2>
-
+      <h2 className="text-xl font-semibold border-b pb-2"> Contact </h2>
       <div className="grid md:grid-cols-2 gap-5">
-
-        <input
-          type="text"
-          name="phone"
-          placeholder="Phone Number *"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="text"
-          name="website"
-          placeholder="Website *"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
+        <input type="text" name="phone" placeholder="Phone Number *" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="website" placeholder="Website *" onChange={handleChange} className="border p-3 rounded-lg"/>
       </div>
 
       {/* Company */}
-      <h2 className="text-xl font-semibold border-b pb-2">
-        Company Details
-      </h2>
-
+      <h2 className="text-xl font-semibold border-b pb-2">Company Details</h2>
       <div className="grid md:grid-cols-3 gap-5">
-
-        <input
-          type="text"
-          name="company.name"
-          placeholder="Company Name *"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="text"
-          name="company.catchPhrase"
-          placeholder="Catch Phrase"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
-        <input
-          type="text"
-          name="company.bs"
-          placeholder="Business"
-          onChange={handleChange}
-          className="border p-3 rounded-lg"
-        />
-
+        <input type="text" name="company.name" placeholder="Company Name *" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="company.catchPhrase" placeholder="Catch Phrase" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="company.bs" placeholder="Business" onChange={handleChange} className="border p-3 rounded-lg"/>
       </div>
-
-      <button
-        type="submit"
-        className="bg-blue-600 text-white py-3 px-5 rounded-lg hover:bg-blue-700 transition"
-      >
-        Add User
-      </button>
+      <button type="submit" className="bg-blue-600 text-white py-3 px-5 rounded-lg hover:bg-blue-700 transition">Add User</button>
     </form>
+  </div>
   </div>
 );
 }

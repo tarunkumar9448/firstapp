@@ -104,12 +104,11 @@ function Managedata() {
 };
 
   return (
-    <div className="max-w-5xl mx-auto py-16 px-6">
-
-      <h1 className="text-4xl font-bold mb-8 text-center">
+      <div className="min-h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold mb-6 text-center bg-blue-600 text-white py-20 text-center">
         Manage Data
       </h1>
-
+    <div className="max-w-5xl mx-auto py-16 px-6">
       <div className="overflow-x-auto">
         <table className="min-w-full border shadow-lg">
           <thead className="bg-blue-600 text-white">
@@ -142,6 +141,7 @@ function Managedata() {
 
           </tbody>
         </table>
+      </div>
       </div>
 
 
