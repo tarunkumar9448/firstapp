@@ -110,7 +110,7 @@ function Managedata() {
       </h1>
     <div className="max-w-5xl mx-auto py-16 px-6">
       <div className="overflow-x-auto">
-        <table className="min-w-full border shadow-lg">
+        <table className="min-w-full border shadow-lg bg-white">
           <thead className="bg-blue-600 text-white">
             <tr>
               <th className="px-4 py-3 text-center">ID</th>
