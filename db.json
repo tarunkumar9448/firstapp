@@ -2,7 +2,7 @@
   "users": [
     {
       "image": null,
-      "name": "Nishu",
+      "name": "Nishu1",
       "username": "nishugupta92",
       "email": "nishu@gmai.com",
       "address": {
@@ -46,6 +46,29 @@
         "bs": ""
       },
       "id": 2
+    },
+    {
+      "name": "Rajesh",
+      "username": "Rajesh",
+      "email": "rvaishnav@trueblue.com",
+      "address": {
+        "street": "13 a gandhi nagar",
+        "suite": "",
+        "city": "mathura",
+        "zipcode": "281004",
+        "geo": {
+          "lat": "",
+          "lng": ""
+        }
+      },
+      "phone": "7983087168",
+      "website": "trueblue.com",
+      "company": {
+        "name": "Trueblue",
+        "catchPhrase": "na",
+        "bs": "na"
+      },
+      "id": 3
     }
   ]
 }
