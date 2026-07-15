@@ -121,7 +121,7 @@ function Managedata() {
           </thead>
           <tbody>
           {users.map((user)=>(
-              <tr key={user.id} className="border-b">
+              <tr key={user.id} className="border-b odd:bg-white even:bg-gray-100">
                 <td className="px-4 py-3 text-center">
                   {user.id}
                 </td>
