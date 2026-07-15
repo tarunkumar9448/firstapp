@@ -39,6 +39,12 @@ function Header() {
           >
             Add Data
           </Link>
+          <Link 
+            to="/managedata" 
+            className="hover:text-blue-400 transition duration-300"
+          >
+            Manage Data
+          </Link>
         </nav>
 
       </div>

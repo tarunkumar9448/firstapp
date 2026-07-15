@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import AddData from "./pages/adddata";
+import Managedata from "./pages/managedata";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/adddata" element={<AddData />} />
+        <Route path="/managedata" element={<Managedata />} />
       </Routes>
 
       <Footer />
