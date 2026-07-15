@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "image": null,
+      "name": "Nishu",
+      "username": "nishugupta92",
+      "email": "nishu@gmai.com",
+      "address": {
+        "street": "cfftccf",
+        "suite": "",
+        "city": "delhu",
+        "zipcode": "110023838347474747",
+        "geo": {
+          "lat": "656758758758",
+          "lng": "7685786587"
+        }
+      },
+      "phone": "5434567896543567897654367",
+      "website": "54678765435678",
+      "company": {
+        "name": "76546789",
+        "catchPhrase": "7654345678654e5",
+        "bs": "678765467"
+      },
+      "id": 1
+    },
+    {
+      "name": "A",
+      "username": "A",
+      "email": "tkumar3@peoplescout.com",
+      "address": {
+        "street": "A",
+        "suite": "",
+        "city": "A",
+        "zipcode": "A",
+        "geo": {
+          "lat": "",
+          "lng": ""
+        }
+      },
+      "phone": "A",
+      "website": "A",
+      "company": {
+        "name": "A",
+        "catchPhrase": "A",
+        "bs": ""
+      },
+      "id": 2
+    }
+  ]
+}
