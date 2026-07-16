@@ -36,48 +36,48 @@ function About() {
 
                  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                     <div class="bg-white rounded-xl shadow-md p-6 text-center">
+                     <div class="bg-white rounded-xl shadow-md p-6 text-center dark:bg-gray-800">
                          <img src={TeamImg1} class="w-24 h-24 rounded-full mx-auto mb-4" />
-                         <h3 class="font-bold text-xl">John Doe</h3>
-                         <p class="text-blue-600">Frontend Developer</p>
+                         <h3 class="font-bold text-xl dark:text-gray-100">John Doe</h3>
+                         <p class="text-gray-500">Frontend Developer</p>
                      </div>
 
-                     <div class="bg-white rounded-xl shadow-md p-6 text-center">
+                     <div class="bg-white rounded-xl shadow-md p-6 text-center dark:bg-gray-800">
                          <img src={TeamImg1} class="w-24 h-24 rounded-full mx-auto mb-4" />
-                         <h3 class="font-bold text-xl">Jane Smith</h3>
-                         <p class="text-blue-600">Backend Developer</p>
+                         <h3 class="font-bold text-xl dark:text-gray-100">Jane Smith</h3>
+                         <p class="text-gray-500">Backend Developer</p>
                      </div>
 
-                     <div class="bg-white rounded-xl shadow-md p-6 text-center">
+                     <div class="bg-white rounded-xl shadow-md p-6 text-center dark:bg-gray-800">
                          <img src={TeamImg1} class="w-24 h-24 rounded-full mx-auto mb-4" />
-                         <h3 class="font-bold text-xl">David Lee</h3>
-                         <p class="text-blue-600">UI/UX Designer</p>
+                         <h3 class="font-bold text-xl dark:text-gray-100">David Lee</h3>
+                         <p class="text-gray-500">UI/UX Designer</p>
                      </div>
 
                  </div>
              </div>
          </section>
-         <section class="bg-white py-10 rounded-xl">
-                 <h2 class="text-3xl font-bold text-center mb-10">Our Success</h2>
+         <section class="bg-white py-10 rounded-xl dark:bg-gray-800">
+                 <h2 class="text-3xl font-bold text-center mb-10 dark:text-gray-100">Our Success</h2>
              <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                  <div>
-                     <h3 class="text-4xl font-bold text-blue-600"><Counter end={500} suffix="+" /></h3>
-                     <p class="text-gray-600 mt-2">Projects</p>
+                     <Counter end={500} suffix="+" />
+                     <p class="text-gray-600 mt-2 dark:text-gray-200">Projects</p>
                  </div>
 
                  <div>
-                     <h3 class="text-4xl font-bold text-blue-600"><Counter end={250} suffix="+" /></h3>
-                     <p class="text-gray-600 mt-2">Clients</p>
+                     <Counter end={250} suffix="+" />
+                     <p class="text-gray-600 mt-2 dark:text-gray-200">Clients</p>
                  </div>
 
                  <div>
-                     <h3 class="text-4xl font-bold text-blue-600"><Counter end={10} suffix="+" /></h3>
-                     <p class="text-gray-600 mt-2">Years Experience</p>
+                     <Counter end={10} suffix="+" />
+                     <p class="text-gray-600 mt-2 dark:text-gray-200">Years Experience</p>
                  </div>
 
                  <div>
-                     <h3 class="text-4xl font-bold text-blue-600"><Counter end={24} suffix="/7" /></h3>
-                     <p class="text-gray-600 mt-2">Support</p>
+                     <Counter end={24} suffix="/7" />
+                     <p class="text-gray-600 mt-2 dark:text-gray-200">Support</p>
                  </div>
              </div>
          </section>

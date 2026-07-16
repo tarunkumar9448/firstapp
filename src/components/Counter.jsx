@@ -41,7 +41,7 @@ function Counter({ end, suffix = "" }) {
   }, [start, end]);
 
   return (
-    <h3 ref={ref} className="text-4xl font-bold text-blue-600">
+    <h3 ref={ref} className="text-4xl font-bold text-gray-600 dark:text-gray-200">
       {count}{suffix}
     </h3>
   );
