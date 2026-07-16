@@ -104,7 +104,7 @@ function Managedata() {
 };
 
   return (
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-700">
       <h1 className="text-4xl font-bold mb-6 text-center bg-blue-600 text-white py-20 text-center">
         Manage Data
       </h1>

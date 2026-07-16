@@ -26,8 +26,8 @@
     },
     {
       "name": "AB",
-      "username": "A",
-      "email": "tkumar3@peoplescout.com",
+      "username": "Abc",
+      "email": "tkumar3@abc.com",
       "address": {
         "street": "A",
         "suite": "",
@@ -38,8 +38,8 @@
           "lng": ""
         }
       },
-      "phone": "Aa",
-      "website": "A",
+      "phone": "AaBb",
+      "website": "ABC",
       "company": {
         "name": "A",
         "catchPhrase": "A",
