@@ -110,8 +110,8 @@ function Managedata() {
       </h1>
     <div className="max-w-5xl mx-auto py-16 px-6">
       <div className="overflow-x-auto">
-        <table className="min-w-full border shadow-lg bg-white">
-          <thead className="bg-blue-600 text-white">
+        <table className="min-w-full border shadow-lg bg-white dark:bg-gray-600 dark:border-gray-600">
+          <thead className="bg-blue-600 text-white dark:bg-gray-500 dark:text-gray-100">
             <tr>
               <th className="px-4 py-3 text-center">ID</th>
               <th className="px-4 py-3 text-left">Name</th>
@@ -121,7 +121,7 @@ function Managedata() {
           </thead>
           <tbody>
           {users.map((user)=>(
-              <tr key={user.id} className="border-b odd:bg-white even:bg-gray-100">
+              <tr key={user.id} className="border-b dark:border-gray-200 odd:bg-white even:bg-gray-100 dark:odd:bg-gray-200 dark:even:bg-gray-300">
                 <td className="px-4 py-3 text-center">
                   {user.id}
                 </td>

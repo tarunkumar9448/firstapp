@@ -136,7 +136,7 @@ function AddData() {
         Add User
       </h1>
   <div className="max-w-5xl mx-auto py-12 px-6">
-      <form onSubmit={handleSubmit} className="bg-white shadow-lg rounded-xl p-8 space-y-6">
+      <form onSubmit={handleSubmit} className="bg-white shadow-lg rounded-xl p-8 space-y-6 dark:bg-gray-300">
       {/* Profile Image */}
       {/*<div>
         Profile Image  <label className="block mb-2 font-semibold">
@@ -160,37 +160,37 @@ function AddData() {
       </div>*/}
 
       {/* Basic Details */}
-      <h2 className="text-xl font-semibold border-b pb-2">Basic Details</h2>
+      <h2 className="text-xl font-semibold border-b pb-2 dark:border-gray-400">Basic Details</h2>
       <div className="grid md:grid-cols-3 gap-4">
-        <input type="text" name="name" placeholder="Full Name *" onChange={handleChange} className="border p-3 rounded-lg"/>
-        <input type="text" name="username" placeholder="Username *" onChange={handleChange} className="border p-3 rounded-lg"/>
-        <input type="email" name="email" placeholder="Email *" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="name" placeholder="Full Name *" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="text" name="username" placeholder="Username *" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="email" name="email" placeholder="Email *" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
       </div>
 
       {/* Address */}
-      <h2 className="text-xl font-semibold border-b pb-2">Address</h2>
+      <h2 className="text-xl font-semibold border-b pb-2 dark:border-gray-400">Address</h2>
       <div className="grid md:grid-cols-3 gap-4">
-        <input type="text" name="address.street" placeholder="Street *" onChange={handleChange} className="border p-3 rounded-lg"/>
-        <input type="text" name="address.suite" placeholder="Suite" onChange={handleChange} className="border p-3 rounded-lg"/>
-        <input type="text" name="address.city" placeholder="City *" onChange={handleChange} className="border p-3 rounded-lg"/>
-        <input type="text" name="address.zipcode" placeholder="Zip Code *" onChange={handleChange} className="border p-3 rounded-lg"/>
-        <input type="text" name="address.geo.lat" placeholder="Latitude" onChange={handleChange} className="border p-3 rounded-lg"        />
-        <input type="text" name="address.geo.lng" placeholder="Longitude" onChange={handleChange} className="border p-3 rounded-lg"        />
+        <input type="text" name="address.street" placeholder="Street *" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="text" name="address.suite" placeholder="Suite" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="text" name="address.city" placeholder="City *" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="text" name="address.zipcode" placeholder="Zip Code *" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="text" name="address.geo.lat" placeholder="Latitude" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="text" name="address.geo.lng" placeholder="Longitude" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
       </div>
 
       {/* Contact */}
-      <h2 className="text-xl font-semibold border-b pb-2"> Contact </h2>
+      <h2 className="text-xl font-semibold border-b pb-2 dark:border-gray-400"> Contact </h2>
       <div className="grid md:grid-cols-2 gap-5">
-        <input type="text" name="phone" placeholder="Phone Number *" onChange={handleChange} className="border p-3 rounded-lg"/>
-        <input type="text" name="website" placeholder="Website *" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="phone" placeholder="Phone Number *" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="text" name="website" placeholder="Website *" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
       </div>
 
       {/* Company */}
-      <h2 className="text-xl font-semibold border-b pb-2">Company Details</h2>
+      <h2 className="text-xl font-semibold border-b pb-2 dark:border-gray-400">Company Details</h2>
       <div className="grid md:grid-cols-3 gap-5">
-        <input type="text" name="company.name" placeholder="Company Name *" onChange={handleChange} className="border p-3 rounded-lg"/>
-        <input type="text" name="company.catchPhrase" placeholder="Catch Phrase" onChange={handleChange} className="border p-3 rounded-lg"/>
-        <input type="text" name="company.bs" placeholder="Business" onChange={handleChange} className="border p-3 rounded-lg"/>
+        <input type="text" name="company.name" placeholder="Company Name *" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="text" name="company.catchPhrase" placeholder="Catch Phrase" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
+        <input type="text" name="company.bs" placeholder="Business" onChange={handleChange} className="border p-3 rounded-lg bg-gray-100"/>
       </div>
       <button type="submit" className="bg-blue-600 text-white py-3 px-5 rounded-lg hover:bg-blue-700 transition">Add User</button>
     </form>

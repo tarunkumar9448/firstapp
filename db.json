@@ -69,6 +69,29 @@
         "bs": "na"
       },
       "id": 3
+    },
+    {
+      "name": "Jhone dev",
+      "username": "jhonedev",
+      "email": "jhondev@gmail.com",
+      "address": {
+        "street": "1234",
+        "suite": "",
+        "city": "delhi",
+        "zipcode": "110000",
+        "geo": {
+          "lat": "",
+          "lng": ""
+        }
+      },
+      "phone": "9632587410",
+      "website": "jhondev.com",
+      "company": {
+        "name": "spa solution",
+        "catchPhrase": "",
+        "bs": ""
+      },
+      "id": 4
     }
   ]
 }

@@ -34,14 +34,11 @@ function Home() {
       {users.slice(0, 10).map((user) => (
         <div
           key={user.id}
-          className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 border border-gray-200 dark:border-gray-700 transition-colors duration-300"
-        >
-          <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-            {user.name}{" "}
+          className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 border border-gray-200 dark:border-gray-700 transition-colors duration-300">
+          <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white mb-0">
+             <span>#{user.id}</span> {user.name}{" "}
             <small className="text-gray-500 dark:text-gray-400">
-              ({user.username})
-              <br />
-              <small>#{user.id}</small>
+              ({user.username})             
             </small>
           </h3>
 
